@@ -22,9 +22,8 @@ const About = () => {
 
                 {/* Header Section */}
                 <div
-                    className={`text-center mb-12 ${
-                        fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-                    } transition-all duration-1000 ease-out`}
+                    className={`text-center mb-12 ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                        } transition-all duration-1000 ease-out`}
                 >
                     <h1 className="text-4xl sm:text-5xl font-bold mb-4">
                         Hi There! I'm{' '}
@@ -42,9 +41,8 @@ const About = () => {
                     <img
                         src={AboutImg}
                         alt="About"
-                        className={`w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover rounded-full shadow-lg transition-all duration-1000 ease-out ${
-                            fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-                        }`}
+                        className={`w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover rounded-full shadow-lg transition-all duration-1000 ease-out ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                            }`}
                     />
                 </div>
 
@@ -74,20 +72,21 @@ const About = () => {
                     <div className="space-y-4">
                         <h3 className="text-2xl font-semibold">Download CV</h3>
                         <a
-                            href="path_to_cv.pdf"
-                            download
+                            href="https://drive.google.com/file/d/1DROEHTrqavOaBOe1-kdHfE1auwbRXsul/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="inline-block bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg text-lg"
                         >
                             Download CV
                         </a>
                     </div>
+
                 </div>
 
                 {/* Background Section */}
                 <div
-                    className={`text-center ${
-                        fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-                    } transition-all duration-1000 ease-out`}
+                    className={`text-center ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                        } transition-all duration-1000 ease-out`}
                 >
                     <h3 className="text-2xl font-semibold mb-4">Background Information</h3>
                     <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto">
@@ -100,12 +99,11 @@ const About = () => {
 
                 {/* Education Section */}
                 <div
-                    className={`text-center ${
-                        fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-                    } transition-all duration-1000 ease-out mt-12`}
+                    className={`text-center ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                        } transition-all duration-1000 ease-out mt-12`}
                 >
                     <h3 className="text-2xl font-semibold mb-4">Education</h3>
-                    
+
                     <ul className="space-y-4 text-lg sm:text-xl text-gray-300">
                         <li>
                             <strong>Institution:</strong> Red & White Multimedia Education Official (2023 - 2024)
