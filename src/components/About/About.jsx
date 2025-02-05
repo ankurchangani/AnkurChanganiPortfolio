@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import AboutImg from '../../assets/images/About/About.jpg'; // Ensure this path is correct
+import AboutImg from '../../assets/images/About/About.jpg'; 
 
 
 const About = () => {
@@ -72,7 +72,7 @@ const About = () => {
                     <div className="space-y-4">
                         <h3 className="text-2xl font-semibold">Download CV</h3>
                         <a
-                            href="https://drive.google.com/file/d/1DROEHTrqavOaBOe1-kdHfE1auwbRXsul/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1ZS9bnqVPJU4JsmWyYCTvOrVCYQp1Jftl/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg text-lg"
