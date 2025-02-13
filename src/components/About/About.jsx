@@ -80,9 +80,7 @@ const About = () => {
                             Download CV
                         </a>
                     </div>
-
                 </div>
-
                 {/* Background Section */}
                 <div
                     className={`text-center ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
