@@ -31,12 +31,7 @@ const Projects = () => {
   return (
     <section className="py-24">
       <div className="container mx-auto px-4">
-      <div className="flex justify-center items-center">
-                        <h2 className="titel">
-                        project
-                            <span className="titel-shadow">project</span>
-                        </h2>
-                    </div>
+        <div class="flex justify-center items-center mb-10"><h2 class="titel text-[#635985]">Project<span class="titel-shadow text-[#443C68]">Project</span></h2></div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
@@ -48,13 +43,24 @@ const Projects = () => {
                 <h3 className="text-white text-xl font-bold mb-4">{project.title}</h3>
                 <p className="text-gray-300 text-sm mb-4">{project.description}</p>
                 <div className="flex justify-center space-x-6">
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:scale-125 hover:text-yellow-400">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white text-3xl p-3 rounded-full transition-all duration-300 hover:bg-[#7A1CAC] hover:text-white"
+                  >
                     <FaGithub />
                   </a>
-                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:scale-125 hover:text-green-400">
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white text-3xl p-3 rounded-full transition-all duration-300 hover:bg-[#7A1CAC] hover:text-white"
+                  >
                     <FaChrome />
                   </a>
                 </div>
+
               </div>
             </div>
           ))}
