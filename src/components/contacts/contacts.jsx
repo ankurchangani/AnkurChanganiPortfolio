@@ -40,19 +40,21 @@ const Contacts = () => {
 
                 {/* Contact Form */}
                 <div className='flex justify-center items-center mt-16'>
-                    <div className="w-full md:w-3/4 lg:w-1/2 bg-gradient-to-r from-purple-700 via-indigo-800 to-blue-700 p-8 rounded-lg shadow-lg">
+                    <div className="w-full md:w-3/4 lg:w-1/2 bg-gradient-to-r bg-[#443C68] p-8 rounded-lg shadow-lg">
                         <form className="flex flex-col w-full">
                             <label className="text-white text-lg font-medium">Name</label>
-                            <input type="text" className="w-full p-3 mt-2 mb-4 rounded bg-gradient-to-r from-purple-500 via-indigo-600 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+
+                            <input type="text" className="w-full p-3 mt-2 mb-4 rounded bg-[#393053]  text-white border border-gray-600 focus:outline-none" />
 
                             <label className="text-white text-lg font-medium">Email</label>
-                            <input type="email" className="w-full p-3 mt-2 mb-4 rounded bg-gradient-to-r from-purple-500 via-indigo-600 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+
+                            <input type="email" className="w-full p-3 mt-2 mb-4 rounded bg-[#393053]  text-white border border-gray-600 focus:outline-none " />
 
                             <label className="text-white text-lg font-medium">Subject</label>
-                            <input type="text" className="w-full p-3 mt-2 mb-4 rounded bg-gradient-to-r from-purple-500 via-indigo-600 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                            <input type="text" className="w-full p-3 mt-2 mb-4 rounded bg-[#393053]  text-white border border-gray-600 focus:outline-none" />
 
                             <label className="text-white text-lg font-medium">Message</label>
-                            <textarea className="w-full p-3 mt-2 mb-4 rounded bg-gradient-to-r from-purple-500 via-indigo-600 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400" rows="4"></textarea>
+                            <textarea className="w-full p-3 mt-2 mb-4 rounded bg-[#393053]  text-white border border-gray-600 focus:outline-none" rows="4"></textarea>
 
                             <button className="w-full bg-blue-500 text-white py-3 rounded-lg shadow-md hover:bg-blue-600 transition-all duration-300">
                                 Send Message

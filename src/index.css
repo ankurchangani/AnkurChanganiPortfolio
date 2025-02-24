@@ -11,7 +11,7 @@
 body {
   @apply text-black dark:text-white transition-colors duration-300;
   font-family: 'Arial', sans-serif;
-  background-image: linear-gradient(0deg, #612691 3%, #323030 100%);
+  background-color: #18122B;
 
 }
 

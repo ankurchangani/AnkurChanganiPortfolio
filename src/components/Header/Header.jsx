@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from '../../assets/images/logo/Logo.png'
+import Logo from '../../assets/images/home/Ac.svg'
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -9,16 +9,11 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r from-purple-700 to-indigo-900 shadow-lg dark:bg-gray-800 w-full">
+    <header className="bg-gradient-to-r bg-[#635985] w-full px-3 rounded-lg">
       <div className="container mx-auto">
         <nav className="flex justify-between items-center">
           {/* Logo */}
           <div
-            style={{
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              animation: "gradientAnimation 3s ease infinite",
-            }}
           >
            <img src = {Logo} alt="logo" className="w-20 h-20" />
           </div>
@@ -45,16 +40,11 @@ const Header = () => {
           <div className="hidden md:block ml-auto">
             <a
               href="#hire-me"
-              className="relative px-6 py-3 text-white font-semibold bg-gradient-to-r from-pink-500 to-red-500 rounded-full shadow-lg transition duration-300 transform hover:scale-110 active:scale-95"
-              style={{
-                borderRadius: "50px",
-                boxShadow: "0px 6px 15px rgba(0, 0, 0, 0.3)",
-              }}
+              className="relative px-6 py-3 text-white font-semibold bg-gradient-to-r bg-[#393053] rounded-full shadow-lg transition duration-300 transform hover:scale-110 active:scale-95"
             >
               Hire Me
             </a>
           </div>
-
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMobileMenu}

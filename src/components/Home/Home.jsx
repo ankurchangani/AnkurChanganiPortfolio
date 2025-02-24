@@ -33,10 +33,6 @@ const Home = () => {
         className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 text-yellow-500 text-5xl sm:text-6xl md:text-7xl animate-bounce"
       />
 
-      {/* HTML Icon - Centered at the Bottom */}
-      <FaHtml5
-        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-orange-500 text-5xl sm:text-6xl md:text-7xl animate-pulse"
-      />
 
       {/* CSS Icon - Bottom Right */}
       <FaCss3Alt

@@ -41,7 +41,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-purple-700 via-blue-700 to-gray-800 shadow-2xl rounded-3xl overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl border border-gray-700 p-6 w-full"
+              className="bg-gradient-to-br bg-[#443C68] to-gray-800 shadow-2xl rounded-3xl overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl border border-gray-700 p-6 w-full"
             >
               <div className="text-center">
                 <img src={project.image} alt={project.title} className="object-cover w-full h-48 rounded-lg mb-4" />
