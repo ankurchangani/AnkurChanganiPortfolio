@@ -3,14 +3,14 @@ import imgMe from "../../assets/images/me/me.jpg";
 import Ac from '../../assets/images/home/Ac.svg';
 import { FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { SiJavascript } from 'react-icons/si';
-import VideoBg from "../../assets/images/home/3129576-uhd_3840_2160_30fps.mp4";
+import Resume from '../../assets/Resume/Resume.pdf'
 
 const Home = () => {
   const [fadeIn, setFadeIn] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setFadeIn(true), 500);
-    
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -75,12 +75,22 @@ const Home = () => {
       </p>
 
       {/* Contact Button */}
-      <a
-        href="#contact"
-        className="mt-8 inline-block px-6 py-3 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:opacity-90 transition-all duration-300"
-      >
-        Contact Me
-      </a>
+      <div className='flex gap-3 mb-4'>
+        <a
+          href={Resume}
+          download="Ankur_Changani_Resume.pdf"
+          className="mt-8 inline-block px-6 py-3 bg-gradient-to-r from-blue-900 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:opacity-90 transition-all duration-300"
+        >
+          Download Cv
+        </a>
+
+        <a
+          href="#contact"
+          className="mt-8 inline-block px-6 py-3 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-full text-white font-semibold shadow-lg hover:opacity-90 transition-all duration-300"
+        >
+          Contact Me
+        </a>
+      </div>
     </section>
   );
 };

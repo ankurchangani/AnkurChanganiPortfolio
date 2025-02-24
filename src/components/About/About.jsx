@@ -18,8 +18,6 @@ const About = () => {
                             <span className="titel-shadow">ABOUT ME</span>
                         </h2>
                     </div>
-
-
                     <div className="flex flex-col lg:flex-row items-center">
                         {/* Image Section */}
                         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-10 lg:mb-0">

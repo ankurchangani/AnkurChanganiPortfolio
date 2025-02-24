@@ -9,8 +9,8 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r from-purple-700 to-indigo-900 shadow-lg dark:bg-gray-800">
-      <div className="container mx-auto px-2">
+    <header className="bg-gradient-to-r from-purple-700 to-indigo-900 shadow-lg dark:bg-gray-800 w-full">
+      <div className="container mx-auto">
         <nav className="flex justify-between items-center">
           {/* Logo */}
           <div
