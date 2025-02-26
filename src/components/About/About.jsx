@@ -9,7 +9,7 @@ const About = () => {
 
     return (
         <>
-            <section className="py-20 bg-[#18122B] text-white">
+            <section className="py-20 bg-[#18122B] text-white" id='about'>
                 <div className="container mx-auto">
                     <div className="flex justify-center items-center">
                         <h2 className="titel text-[#635985]">

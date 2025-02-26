@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section className="relative flex flex-col items-center text-center py-12 sm:py-16 md:py-24 text-white min-h-screen overflow-x-hidden">
+    <section className="relative flex flex-col items-center text-center py-12 sm:py-16 md:py-24 text-white min-h-screen overflow-x-hidden" id="home">
       {/* AC Logo - Top Left */}
       <img
         src={Ac}

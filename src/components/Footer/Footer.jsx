@@ -10,10 +10,10 @@ const Footer = () => {
           {/* Logo & Name */}
           <div className="flex flex-col items-center">
             <img src={Logo} alt="Ankur Changani" className="w-16 sm:w-20 mb-2" />
-            <h2 className="text-2xl font-bold bg-gradient-to-r from-[#443C68] to-[#635985] text-transparent bg-clip-text">
+            <h2 className="text-2xl font-bold text-white text-transparent bg-clip-text">
               Ankur Changani
             </h2>
-            <p className="text-2xl font-bold bg-gradient-to-r from-[#443C68] to-[#393053] text-transparent bg-clip-text mt-5">
+            <p className="text-2xl font-bold text-white text-transparent bg-clip-text mt-5">
               Front-end Developer 
             </p>
           </div>

@@ -28,7 +28,7 @@ const SkillsSwiper = () => {
   ];
 
   return (
-    <section className="py-20 ">
+    <section className="py-20 " id="skills">
       <div className="container mx-auto">
         <div className="flex justify-center items-center mb-10">
           <h2 className="titel text-[#635985]">

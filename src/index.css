@@ -19,6 +19,7 @@ body {
 
 html {
   transition: background-color 0.3s, color 0.3s;
+  scroll-behavior: smooth
 }
 
 body.light {
@@ -71,4 +72,5 @@ body.dark {
 .skills-swiper .swiper-slide {
   max-width: 100%;
 }
+
 
